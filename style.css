@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background: #f5f0f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero{
+  background: #6a0dad;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.container{
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2{
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.card ul{
+  padding-left: 20px;
+}
+
+.card li{
+  margin-bottom: 8px;
+}
+
+.destaque{
+  background: #f3d9ff;
+  border-left: 6px solid #6a0dad;
+}
+
+footer{
+  background: #6a0dad;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
